@@ -1,0 +1,226 @@
+<style>
+ 	 main{
+ 	 	width: 95%; margin: 10px auto ;
+ 	 	border:2px solid black;
+ 	 	display: grid; 
+ 	 	/* grid row ki hight define*/
+ 	 	grid-template-rows: 90px 20px ;
+		/*335px 30px ;*/
+ 	 	/*grid-template-columns: repeat(3, 1fr) ;*/
+ 	 	grid-gap: 5px; /* give gaps in rows and column*/
+ 	 }
+
+ 	 /*Header styling*/
+ 	 .header {	background-color: #; 
+	grid-column: 1/-1;
+ 	 }
+
+
+ 	 
+ 	 /*marquee styling*/
+
+ 	 .Marquee {	background-color: yellow; 
+ 	 grid-column: 1/-1;
+	 
+ 	 }
+
+
+</style>
+
+<main>
+  <div class="header" >  <img src="Images/Headerimg.png" height="100px" width="100%" margin="10px" ></div>
+
+  <div class="Marquee">
+    
+  <marquee scrolldelay="10" >
+                 <img border="0" src="Images/Headerimg.gif" &nbsp;&nbsp;="" width="15" height="10">
+                              <a href="#">
+                      
+                              Gram Panchayat monthly meeting held 9th and 26th day of every month. 
+                                  <font class="text2&nbsp;" &nbsp;="" color="Yellow&nbsp;" size="3">&nbsp;
+                                      <img border="0" src="Images/New gif.gif" &nbsp;&nbsp;="" width="15" height="10">
+  <a href="#">
+                                  Massage 2
+                              </font></a>
+                            </marquee>
+                          </div>
+
+     <button style="width:10%" align = "right"> <a href="index.html" > Home Page </a> </button>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!--script file strated for pdf downlaod--> 
+<script src="js/html2canvas.min.js"></script>
+<script src="js/pdfmake.min.js"></script>
+<script type="text/javascript">
+    function Export() {
+        
+        html2canvas(document.getElementById('Contact'), {
+            onrendered: function (canvas) {
+                var data = canvas.toDataURL();
+                var docDefinition = {
+                    content: [{
+                        image: data,
+                        width: 500
+                    }]
+                };
+                pdfMake.createPdf(docDefinition).download("Contact.pdf");
+                alert("Pdf Downloading Started");
+            }
+        });
+    }
+</script>
+<!--script file closed-->
+    <style>
+        
+        Body{
+            background: #1fca408c; 
+        }
+       tr{
+           width: 0%;
+           height: 0%;
+           color:rgb(2, 2, 2);
+       }
+       th{
+            width: 0%;
+           height: 0%;
+           color:rgb(10, 10, 10);
+       }
+       h3{
+           text-align: center;
+       }
+       td{
+           text-align: inherit;
+       }
+
+
+        
+    </style>
+</head>
+<h3 >Name and Contact No. of Panchayat officials</h3>
+<body>
+    
+
+    
+            <table style="width:55%" align = "center"  border="Solid black" id="Contact" > 
+        <tbody>
+            <caption>Name and Contact No. of Panchayat officials</caption>
+        <tr >
+          <th>Sr.No</th>
+          <th>Name</th>
+          <th>Designation</th>
+          <th>Jurdiction</th>
+          <th>Mobile No</th>
+          <th>Photo</th>
+          </tr>
+    <tr>
+            <td>1.</td>
+            <td>Tara Devi</td>
+            <td>Pradhan</td>
+            <td>Gram Panchayat</td>
+            <td>9015194788</td>
+            <td><img src="Pradhan.jpg " width="25%"></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Raj Kumar</td>
+                <td>Up-Pradhan</td>
+                <td>Gram Panchayat</td>
+                <td>8219144035</td>
+                <td><img src="Uppradhan.jpg " width="25%" height="12%"></td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Rakesh </td>
+                    <td> Ward Member </td>
+                    <td>Ward No 1 Ghumarda</td>
+                    <td>9816555009</td>
+                    <td>Photo</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Rekha Rani </td>
+                        <td>Ward Member </td>
+                        <td>Ward No 2 Bohron</td>
+                        <td>7876003916</td>
+                        <td>Photo</td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>Rajender</td>
+                            <td>Ward Member </td>
+                            <td>Ward No 3 Kabadhrguda</td>
+                            <td>8219180698</td>
+                            <td>Photo</td>
+                            </tr>
+                            <tr>
+                                <td>6.</td>
+                                <td>Tara Devi</td>
+                                <td>Ward Member </td>
+                                <td>Ward No 4 Kabakalan</td>
+                                <td>9816743377</td>
+                                <td>Photo</td>
+                                </tr>
+                                <tr>
+                                    <td>7.</td>
+                                    <td>Kanta Devi </td>
+                                    <td>Ward Member </td>
+                                    <td>Ward No 5 Halda</td>
+                                    <td>296624703745</td>
+                                    <td>Photo</td>
+                                    </tr> 
+                                <!-- </tbody> -->
+                            <!-- </table> -->
+
+<!-- <table id="Table2"> -->
+     <!-- <table style="width:45%" align = "right" border="solid Blue" bgcolor="purple" ="yellow"margin=""> -->
+                                            <!-- <tbody> -->
+                                                <!-- <caption>Table 2</caption> -->
+
+                                        <td>8.</td>
+                                        <td>Pradeep Kumar</td>
+                                        <td>Panchayat Sachiv</td>
+                                        <td>GP KabaKalan</td>
+                                        <td>9817893816</td>
+                                        <td>Photo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9.</td>
+                                            <td>Rajesh Kumar</td>
+                                            <td>T A </td>
+                                            <td>GP KabaKalan</td>
+                                            <td>9816698787</td>
+                                            <td>Photo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>10.</td>
+                                                <td>Ashok Kumar</td>
+                                                <td>G.R.S</td>
+                                                <td>GP KabaKalan</td>
+                                                <td>8219944035</td>
+                                                <td>Photo</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11</td>
+                                                    <td>Pratap Singh</td>
+                                                    <td>Panchayat Chawkidar</td>
+                                                    <td>GP KabaKalan</td>
+                                                    <td>9816748422</td>
+                                                    <td>Photo</td>
+                                                    </tr>
+                                                <!-- </Div> -->
+                                                 </tbody>
+                                                </Table>
+                                                
+ <input type="button" align="center "id="btnExport"  value="Downlaod Pdf" onclick="Export()" class="auto-style5" />                                     
+</body>
+</html>
