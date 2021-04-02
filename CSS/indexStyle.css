@@ -1,0 +1,109 @@
+
+ *{
+ 	margin: 0; padding: 0; box-sizing: border-box;
+ 	 }
+
+ 	 main{
+ 	 	width: 100%; margin: 0px auto ;
+ 	 	border:0px solid black;
+ 	 	display: grid; 
+ 	 	/* grid row ki hight define*/
+
+		 	 	grid-template-rows: 20px 335px 30px ;
+
+ 	 	grid-template-columns: repeat(3, 1fr) ;
+ 	 	grid-gap: 5px; /* give gaps in rows and column*/
+ 	 }
+
+ 	 /*Header styling
+ 	 .header {	background-color: #; 
+	grid-column: 1/-1;
+ 	 }*/
+
+
+ 	 
+ 	 /*marquee styling*/
+
+ 	 .Marquee {	background-color: pink; 
+ 	 grid-column: 1/-1;
+	 border-radius:5px;
+ 	 }
+
+/*leftside navigation list styling*/
+ 	 .leftbar {	background-color:#f3eded ; 
+	 border-radius:10px;
+
+ 	 }
+
+ 	  .navlist{
+ 	  	padding: 1em;
+ 	  	padding-left: 1em;
+ 	  	 	  	background-color: #;
+ 	  }
+
+
+ 	  .linklist{
+
+ 	  	margin-top: 20px;
+        background-color: pink;
+ 	  	font-family: 'Segoe UI', Tahoma, sans-serif,Arial;
+    	font-size: 85% ;
+ 	  	margin: 4px;
+ 	  	padding:0.2em;
+ 	  	display: grid;
+ 	  }
+
+/* Ceter area styling work*/
+ 	 .centerarea{	
+ 	 	background-color: #b4b40c; 
+		width: 600px;
+		display: grid;
+		border-radius:10px;
+ 	 }
+
+
+/*Creating design for rightside weblink*/
+ 	 .rightbar{	background-color: #f3eded;
+				display: grid; 
+				border-radius:10px;
+}
+
+    
+	
+	.navlist1{
+	padding: 1em;
+ 	  	padding-left: 1em;
+	 	  	 	  	background-color: #;}
+ 	 .linklist1{
+
+ 	  	margin-top: 20px;
+        background-color: pink;
+ 	  	font-family: 'Segoe UI', Tahoma, sans-serif,Arial;
+    	font-size: 85% ;
+ 	  	margin: 4px;
+ 	  	padding:0.2em;
+ 	  	display: grid;
+
+ 	  }
+
+ 	  /*Footer designing*/
+
+ 	   	 .footer {	background-color: pink ; 
+ 	 			 grid-column: 1/-1;
+ 	  			font-family: 'Segoe UI', Tahoma, sans-serif,Arial;
+    			font-size: 85% bold;
+    			display: grid;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
