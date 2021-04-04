@@ -9,7 +9,7 @@
  	 	display: grid; 
  	 	/* grid row ki hight define*/
 
-		 	 	grid-template-rows: 20px 335px 30px ;
+		 	 	grid-template-rows: 20px 400px 150px 50px  ;
 
  	 	grid-template-columns: repeat(3, 1fr) ;
  	 	grid-gap: 5px; /* give gaps in rows and column*/
@@ -86,14 +86,45 @@
 
  	  }
 
- 	  /*Footer designing*/
-
- 	   	 .footer {	background-color: pink ; 
+.abovefooter{
+	background-color: black ; 
  	 			 grid-column: 1/-1;
  	  			font-family: 'Segoe UI', Tahoma, sans-serif,Arial;
     			font-size: 85% bold;
     			display: grid;
+}
+table{
+	     
+	margin:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	cellpadding:2;
+	cellspacing:2;
+}
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+	
+
+
+
+ 	  /*Footer designing*/
+
+ 	   	 .footer {	background-color: pink ; 
+ 	 			 grid-column: 1/-1;
+ 	  			font-family:Tahoma, sans-serif,Arial;
+    			font-size: 95% bold;
+    			display: grid;
+				text-align:center;
+				
+				
 			}
+
+
 
 
 
