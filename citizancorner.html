@@ -13,7 +13,70 @@
 
         h3{
              text-align: center;
+			 
         }
+	
+		.main{
+		background-color:#ffe6f0;
+ 	 	width: 100%; margin: 0px auto ;
+ 	 	border:0px solid black;
+		}
+
+th{
+ background-color: #99ccff;
+ text-align:left;
+}
+
+.table1  {
+		width:100%;
+		height:300px;
+		display:grid;
+		}
+td{
+		padding:-4px;
+		margin:0;
+		width:40%;
+
+		
+
+
+}
+
+.abovefooter{
+	background-color: black ; 
+	grid-column: 1/-1;
+ 	font-family: 'Segoe UI', Tahoma, sans-serif,Arial;
+    font-size: 85% bold;
+    display: grid;
+	
+}
+table{
+	     
+	margin:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	cellpadding:2;
+	cellspacing:2;
+}
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ 	  /*Footer designing*/
+
+ 	   	 .footer {	background-color: pink ; 
+		 grid-column: 1/-1;
+		font-family:Tahoma, sans-serif,Arial;
+		font-size: 95% bold;
+			display: grid;
+		text-align:center;
+		height:50px;				
+				
+			}
+
+
 
     </style>
 
@@ -22,22 +85,55 @@
 
 <body>
     <button> <a href="index.html" > Home Page </a> </button>
-    <ul>
-   <!-- taget is use to open page into new tab on browser -->
-   <li> <a href="Doc/GP Kaba BPL.pdf" target="Blank"> Gram Panchayat BPL List</a></li>
-   <li> <a href="Doc/Budget 2020-21.pdf" target="Blank"> Budget 2020-21 </a></li>
-   <li> <a href="Doc/Budget 2021-22.pdf" target="Blank"> Budget 2021-22 </a></li>
-   <li> <a href="Doc/GPDP 21-22.pdf" target="Blank"> GPDP 2021-22 </a></li>
+	<div class="main">
+	
+	<table class="table1" border="0">
+	<th>Gernal Information</th>
+	<th>Commitee Information</th>
+	<th>Finacial Information</th>
 
 
-   <li> <a href="Doc/Goshwara 31-12-19.pdf" target="Blank"> Goshwara As on 31-12-2019</a></li>
-   <li> <a href="Doc/Goshwara2020.pdf"  target="Blank" > Goshwara As on 31-12-2020  <img border="0" src="Images/New gif.gif" &nbsp;&nbsp;=""</a></li>
-   <li> <a href="Doc/shelf20-21.pdf" target="Blank"> Mgnrega Shelf </a></li>
-   <li> <a href="Doc/Audit Note 2019-20 GP Kabakalan.pdf" target="Blank"> Audit note 2019-20 </a></li>
-   <li><a href="Doc/ONLINE WARE RESERVATION.pdf" target="Blank">Panchayat reservation 2020 </a><br></li>
-</ul>
+	<tr>
+	<td><li> <a href="Doc/GP Kaba BPL.pdf" target="Blank"> Gram Panchayat BPL List</a></li></td>
+   <td><li> <a href="Doc/Budget 2020-21.pdf" target="Blank"> Budget 2020-21 </a></li></td>
+   <td><li> <a href="Doc/Budget 2021-22.pdf" target="Blank"> Budget 2021-22 </a></li></td></tr>
+
+   <tr><td><li> <a href="Doc/GPDP 21-22.pdf" target="Blank"> GPDP 2021-22 </a></li></td>
+   <td><li> <a href="Doc/Goshwara 31-12-19.pdf" target="Blank"> Goshwara As on 31-12-2019</a></li></td>
+   <td><li> <a href="Doc/Goshwara2020.pdf"  target="Blank" > Goshwara As on 31-12-2020</a></li></td>
+   
+   <tr><td><li> <a href="Doc/shelf20-21.pdf" target="Blank"> Mgnrega Shelf </a></li></td>
+   <td><li> <a href="Doc/Audit Note 2019-20 GP Kabakalan.pdf" target="Blank"> Audit note 2019-20 </a></li></td>
+   <td><li><a href="Doc/ONLINE WARE RESERVATION.pdf" target="Blank">Panchayat reservation 2020 </a><br></li>
+</td></tr>
+
+</table>
+</div>
+
+  <div class="abovefooter">
+<table align="center "border="0"  width="100%" height="100" >
+<tr><td><a href="Doc/RTi.pdf" ><img src="Images/rtilogo.jpg" width="100" height="70"></a> <target="_blank"></td>
+<td><a href="http://rdd.bih.nic.in/PMAY_detail.htm" ><img src="Images/pmay.jpg" width="100" height="70"></a> <target="_blank"></td>
+<td><a href="https://swachhbharatmission.gov.in/" ><img src="Images/sbm.png" width="100" height="70"></a> <target="_blank"></td>
+<td><a href="https://www.nvsp.in" ><img src="Images/nvsp.png" width="100" height="70"></a> <target="_blank"></td>
+<td><a href="http://aadhaar.hp.gov.in/epanchayat" ><img src="Images/FT.gif" width="200" height="70"></a> <target="blank"></td>
+
+</tr>
+
+</table>
+</div>
+      <!--Creating footer text-->
+  <div class="footer">This website designed by Pradeep Kumar. Programmer Assistant . : e-mail = pkshivam8@gmail.com , updated as on 17 March 2021</div>
      
 </body>
 </html>
+
+
+
+
+
+
+
+
 
 
