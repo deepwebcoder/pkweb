@@ -9,7 +9,7 @@
  	 	display: grid; 
  	 	/* grid row ki hight define*/
 
-		 	 	grid-template-rows: 20px 400px 150px 50px  ;
+		 	 	grid-template-rows: 20px 400px 300px 50px  ;
 
  	 	grid-template-columns: repeat(3, 1fr) ;
  	 	grid-gap: 5px; /* give gaps in rows and column*/
