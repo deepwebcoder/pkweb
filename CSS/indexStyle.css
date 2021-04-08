@@ -95,6 +95,7 @@
 }
 table{
 	     
+	
 	margin:auto;
 	margin-top:auto;
 	margin-bottom:auto;
@@ -102,6 +103,7 @@ table{
 	cellspacing:2;
 }
 td img{
+	pedding:5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
