@@ -3,13 +3,24 @@
 <!DOCTYPE html>
  <html>
  <head>
- <!-- Owl Stylesheets -->
+ 
+  <!-- Owl Stylesheets of center  photos -->
+ <link rel="stylesheet" href="CSS/bootstrap.css">
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+ <!------------------------------------------------------------>
+ 
+ <!-- Owl Stylesheets of ER photos -->
     <link rel="stylesheet" type="text/css" href="CSS/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/owl.theme.default.min.css">
 
 <!-- javascript -->
     <script src="js/vendors_jquery.min.js"></script>
     <script src="js/owlcarosuel_owl.carousel.js"></script>
+	
+	
 
  
  
@@ -93,20 +104,60 @@ $('.owl-carousel').owlCarousel({
 
 </li> </ul>  </nav>  </div>
 
-  <div class="centerarea">Content
-<ul>
-  <div><h4>Latest news and updates:</h4> 
-                 <marquee behavior= "scrolldelay" bgcolor="#f3eded" direction= "up" scrollamount="2" height="100" onmouseover="this.stop();" onmouseout="this.start();" >
-         <strong><img src="Images/Headerimg.gif" alt="" width="25" height="15" /> <a href="#" target="_blank">Gram Panchayat monthly meeting held 9th and 26th day of every month </a></strong>.<strong><a href="#" target="_blank"></a><br />
-                 <br />   
-                 <img src="Images/Headerimg.gif" alt="" width="25" height="15" /> <a href="" target="_blank">25/04/2021 Gram Sabha  postponed due to covid</a></strong>.<strong><a href="PDF/Presentation.pdf" target="_blank"></a><br />
-                 <br />
+  <div class="centerarea">
+ 
+<div class="row py-3 w-400"
+>
+		<div id="mycarousel" class="carousel slide w-90"  data-ride="carousel" >
+<ol class="carousel-indicators d-block" >
+<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+<li data-target="#mycarousel" data-slide-to="1"></li></ol>
 
-         <img src="Images/Headerimg.gif" alt="" width="25" height="15" border="0" /></a> <a href="#" target="_blank">     </a><br />
-                 </strong>
-                 </marquee>
-               </li>
+
+			<div class="carousel-inner ">
+
+
+
+				<div class="carousel-item active " data-interval="4000">
+				<img src="Images/Path2.jpg" alt="" class="d-block w-100" >
+<h5>First slide  </h5>
+<h6>this photo of dev works  </h6>
+
+
+			</div>
+
+<div class="carousel-item w-100">
+				<img src="Images/Path1.jpg" alt="" class="d-block w-100"> 
+<h5>Second slide</h5>
+<h6>this photo of developemt Path works  </h6>
+
+			</div>
 </div>
+<!--after class carousel-inner div-->
+<a href="#mycarousel" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+
+
+<!--after class carousel-inner div-->
+<a href="#mycarousel" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+
+
+
+</div>
+
+</div>
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
   </div>
@@ -144,8 +195,7 @@ $('.owl-carousel').owlCarousel({
 
 </table>
 </div>
-
-
+  
 <!-- footerlist css--->
 <style>
 
@@ -217,6 +267,9 @@ li {
 </ul>
 </div>
 <div class="clear"></div></div></footer>
+  
+  <!------->
+  
   
   
 
