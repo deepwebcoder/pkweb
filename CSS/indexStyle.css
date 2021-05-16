@@ -2,26 +2,25 @@
  *{
  	margin: ; padding: 0; box-sizing: border-box; 
  	 }
+	 body{ background-color:green;}
 
- 	 main{
- 	 	width: 100%; margin: 5px auto ;
- 	 	border:0px solid black;
- 	 	display: grid; 
- 	 	/* grid row ki hight define*/
 
-		 	 	grid-template-rows: 20px 375px 200px 375px 50px  ;
+  main{
+ 	width: 90%; margin: 10px auto ;
+ 	  border:0px solid black;
+ 	     display: grid; 
+ 	 	
+/* grid row ki hight define*/
 
+		 grid-template-rows: 100px 20px 375px 200px 375px 50px  ;
  	 	grid-template-columns: repeat(3, 1fr) ;
  	 	grid-gap: 5px; /* give gaps in rows and column*/
  	 }
-
- 	 /*Header styling
- 	 .header {	background-color: #; 
+/*Header styling*/
+ 	 .header {	background-color: green; 
 	grid-column: 1/-1;
- 	 }*/
+ 	 }
 
-
- 	 
  	 /*marquee styling*/
 
  	 .Marquee {	background-color: pink; 
