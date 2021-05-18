@@ -1,0 +1,344 @@
+<style>
+ *{
+ 	margin: 0; padding: 0; box-sizing: border-box; 
+ 	 }
+	 
+
+ 	 main{
+ 	 	width: 90%; margin: 10px auto ;
+ 	 	border:1px solid black;
+ 	 	display:grid; 
+ 	 	/* grid row ki hight define*/
+
+		 	 	grid-template-rows: 100px 20px 950px;
+
+ 	 	grid-template-columns: repeat(3, 1fr) ;
+		border-radius:5px;
+ 	 	grid-gap: 5px; /* give gaps in rows and column*/
+ 	 }
+
+ 	 /*Header styling*/
+ 	 .header {	background-color: green; 
+	grid-column: 1/-1;
+
+
+ 	 }
+	 .headerimg{ border-radius:5px;}
+
+
+ 	 
+ 	 /*marquee styling*/
+
+ 	 .Marquee {	background-color: pink; 
+ 	 grid-column: 1/-1;
+	 border-radius:5px;
+ 	 }
+
+ /*Image holder styling*/
+ 	 .imgholder {background-color: ; 
+	grid-column: 1/-1;
+			  	 }
+				 
+				 
+	.container{margin-left: 0px;
+    margin-right: 0px;
+}
+h3{
+		
+		font-family: Arial,sans-serif,"Open Sans",Helvetica;
+		font-size: 20px;
+		line-height: 25px;
+		color: Red;
+		
+}
+
+
+
+
+ 	 .profile {
+	 
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+.profile-img {
+    width: 100%;
+    height: 140px;
+
+}
+.profile .profile-text {
+    position: absolute;
+    z-index: 1;
+    bottom: -44px;
+    left: 0px;
+    right: 0px;
+    padding: 0px 0px;
+	
+    
+}
+.profile-text{
+		background-color:#007bff;;
+		font-family: Arial,sans-serif,"Open Sans",Helvetica;
+		font-size: 13px;
+		line-height: 20px;
+		color: white;
+		
+}
+p{
+pedding:0px}
+
+#container2{
+background-color:;
+}
+
+</style>
+
+
+
+
+<!DOCTYPE html>
+ <html>
+ <head>
+ 
+  <!-- Owl Stylesheets of center  photos -->
+ <link rel="stylesheet" href="CSS/bootstrap.css">
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+ <!------------------------------------------------------------>
+ 
+ <!-- Owl Stylesheets of ER photos -->
+    <link rel="stylesheet" type="text/css" href="CSS/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/owl.theme.default.min.css">
+
+<!-- javascript -->
+    <script src="js/vendors_jquery.min.js"></script>
+    <script src="js/owlcarosuel_owl.carousel.js"></script>
+	
+	
+
+ 
+ 
+  <title>Organisation</title>
+  <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+ </head>
+ <body>
+
+ 
+
+ <main>
+ 
+ <!--Creating DIV for header-->
+ 
+ <div class="header" >  <img src="Images/head2.gif" class="headerimg" height="90px" width="100%" margin="0px" ></div>
+
+<!-- Creating owl carasaul-->
+
+  <div class="Marquee">
+    
+  <marquee scrolldelay="10" >
+                 <img border="0" src="Images/Headerimg.gif" &nbsp;&nbsp;="" width="15" height="10">
+                              <a href="#">
+                      
+                              Welcome to Gram Panchayat Kabakalan. 
+                                  <font class="text2&nbsp;" &nbsp;="" color="Yellow&nbsp;" size="3">&nbsp;
+                                      <img border="0" src="Images/New gif.gif" &nbsp;&nbsp;="" width="15" height="10">
+  <a href="#">
+                                  
+                              </font></a>
+                            </marquee>
+                          </div>
+						  
+						   
+
+<div class="imgholder">
+<!--<button> <a href="index.html" > Home Page </a> </button>-->
+<div class="container" id="container1">
+<div class="row">
+
+<div class="col-lg-9">
+
+<h3>Elected Panchayat Represetative</h3>
+
+<!---------- First Row---------------->
+
+<div class="row">
+
+<!---------- First colom---------------->
+
+<div class="col-sm-3 col-lg-3">
+<div class="profile"></div>
+<div class="profile-img"> <img src="Images/Blank img.png" class="img-fluid" alt="Banner"></div>
+<div class="profile-text">
+<p>Smt. Tara Devi<br>Pradhan</p>
+</div>
+</div>
+<!---------- Second colom---------------->
+<div class="col-sm-3 col-lg-3">
+<div class="profile"></div>
+<div class="profile-img"> <img src="Images/Blank img.png" class="img-fluid" alt="Banner"></div>
+<div class="profile-text">
+<p>Sh. Raj Kumar<br>Up-Pradhan</p>
+</div>
+</div>
+<!-------end of First row div------------>
+</div>
+<!---------------------------------->
+
+<!---------- 2nd Row started---------------->
+
+<div class="row">
+
+<!---------- 2nd Row First colom---------------->
+
+<div class="col-sm-3 col-lg-3">
+<div class="profile"></div>
+<div class="profile-img"> <img src="Images/Blank img.png" class="img-fluid" alt="Banner"></div>
+<div class="profile-text">
+<p>Sh. Rakesh Kumar<br>Ward member</p>
+</div>
+</div>
+<!---------- 2nd Row Second colom---------------->
+<div class="col-sm-3 col-lg-3">
+<div class="profile"></div>
+<div class="profile-img"> <img src="Images/Blank img.png" class="img-fluid" alt="Banner"></div>
+<div class="profile-text">
+<p>Smt. Rekha Rani<br>Ward member</p>
+</div>
+</div>
+<!---------- 2nd Row Third colom---------------->
+<div class="col-sm-3 col-lg-3">
+<div class="profile"></div>
+<div class="profile-img"> <img src="Images/Blank img.png" class="img-fluid" alt="Banner"></div>
+<div class="profile-text">
+<p>Sh. Rajender<br>Ward member</p>
+</div>
+</div>
+<!---------- 2nd Row forth colom---------------->
+<div class="col-sm-3 col-lg-3">
+<div class="profile"></div>
+<div class="profile-img"> <img src="Images/Blank img.png" class="img-fluid" alt="Banner"></div>
+<div class="profile-text">
+<p>Smt. Tara Devi<br>Ward member</p>
+</div>
+</div>
+<!---------- 2nd Row Fifth colom---------------->
+<div class="col-sm-3 col-lg-3">
+<div class="profile"></div>
+<div class="profile-img"> <img src="Images/Blank img.png" class="img-fluid" alt="Banner"></div>
+<div class="profile-text">
+<p>Smt. Kanta Devi<br>Ward member</p>
+</div>
+</div>
+
+<!-------end of row div------------>
+</div>
+<!-----------end of col lg 9 div----------------------->
+</div>
+
+
+<!-------creting col lg 3 div and right menu--------->
+<div class="col-lg-3">
+<div class="right-menu">
+<ul>
+<li><a href="Index.html">Home Page</a> </li>
+<li><a href="#container2">Panchayat Official</a> </li>
+</ul>
+</div>
+</div>
+<!------------end of rightmenu----------------------->
+
+
+<!---- end of row  Div------------>
+</div>
+
+<!---- end of container  Div------------>
+</div>
+
+<!---- end of Image holder  Div------------>
+</div>
+
+<!---------- creating container2 for official ----------------------------------------------->
+
+<div class="imgholder">
+<!--<button> <a href="index.html" > Home Page </a> </button>-->
+<div id="container2" class="container">
+<div class="row">
+
+<div class="col-lg-9">
+
+<h3>Panchayat Official</h3>
+
+<!---------- First Row---------------->
+
+<div class="row">
+
+<!---------- First colom---------------->
+
+<div class="col-sm-3 col-lg-3">
+<div class="profile"></div>
+<div class="profile-img"> <img src="Images/Blank img.png" class="img-fluid" alt="Banner"></div>
+<div class="profile-text">
+<p>Mr.Pradeep Kumar<br>Panchayat Sachiv</p>
+</div>
+</div>
+<!---------- Second colom---------------->
+<div class="col-sm-3 col-lg-3">
+<div class="profile"></div>
+<div class="profile-img"> <img src="Images/Blank img.png" class="img-fluid" alt="Banner"></div>
+<div class="profile-text">
+<p>Mr.Rajesh<br>Technical Assistant</p>
+</div>
+</div>
+<!---------- Third colom---------------->
+<div class="col-sm-3 col-lg-3">
+<div class="profile"></div>
+<div class="profile-img"> <img src="Images/Blank img.png" class="img-fluid" alt="Banner"></div>
+<div class="profile-text">
+<p>Mr.Ashok Kumar<br>Gram Rojgar Sewek</p>
+</div>
+</div>
+<!---------- forth colom---------------->
+<div class="col-sm-3 col-lg-3">
+<div class="profile"></div>
+<div class="profile-img"> <img src="Images/Blank img.png" class="img-fluid" alt="Banner"></div>
+<div class="profile-text">
+<p>Mr.Pratap Singh<br>Chowkidar</p>
+</div>
+</div>
+
+<!-------end of row div------------>
+</div>
+<!-----------end of col lg 9 div----------------------->
+</div>
+
+
+<!-------creting col lg 3 div and right menu--------->
+<div class="col-lg-3">
+<div class="right-menu">
+<ul>
+<li><a href="Index.html">Home Page</a> </li>
+<li><a href="#container1">Elected Represetative</a> </li>
+</ul>
+</div>
+</div>
+<!------------end of rightmenu----------------------->
+
+
+<!---- end of row  Div------------>
+</div>
+
+<!---- end of container  Div------------>
+</div>
+
+<!---- end of Image holder  Div------------>
+</div>
+
+<!----------- end of container2 for official--------------------->
+
+   </main>
+
+ </body>
+ </html> 
