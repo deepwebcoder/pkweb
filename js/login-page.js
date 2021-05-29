@@ -8,7 +8,7 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "user" && password === "barog") {
-		window.location = "file:///E:/Coding/gpsite2Static/admin-page.html";
+		window.location = "https://deepwebcoder.github.io/pkweb/admin-page.html";
         //alert("You have successfully logged in.");
         //location.reload();
     } else {
