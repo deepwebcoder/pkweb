@@ -1,0 +1,456 @@
+<style>
+
+
+
+/* maincontainer hold the all element and size of card*/
+
+#maincontainer{
+	position:relative;
+	width:140px;
+	height:175px;
+	float:left;
+	margin:10px;
+	
+
+
+
+
+}
+
+/* thecard  hold the t0 front and backend element and alse control the mouse hover action*/
+
+#thecard{
+	position:absolute;
+	width:100%;
+	height:100%;
+	transform-style:preserve-3d; /*hold bothe front and back side*/
+	transition: all 0.5s ease;
+	box-shadow: 10px 10px 10px 0px gray;
+	background:#ffc728;
+	color:#333;
+	
+
+}
+
+#thecard:hover{
+		transform:rotateY(180deg);
+
+}
+
+/* thefront  show the default face or front*/
+
+#thefront{
+	position:absolute;
+	width:100%;
+	height:100%;
+	backface-visibility:hidden;
+	background:#ffc728;
+	color:#333;
+	text-align:center;
+		font-family: Arial,sans-serif,"Open Sans",Helvetica;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:20px;
+
+}
+
+/* theback  show the reverce side of card*/
+
+#theback{
+	position:absolute;
+	width:100%;
+	height:100%;
+	backface-visibility:hidden;
+	background:#5fcf80;
+	color:#fff;
+	text-align:center;
+	font-family: 'sans-serif', time new roman;
+	font-size:12px;
+	font-weight:bold;
+	border-radius:20px;
+
+	transform:rotateY(180deg);
+
+}
+#img{
+	border-radius:60px;
+	height:125px;
+	width:125px;
+	box-shadow: 2px 2px 0px 0px gray;
+
+
+}
+
+</style>
+
+<style>
+ *{
+ 	margin: 0; padding: 0; box-sizing: border-box; 
+ 	 }
+	 
+
+ 	 main{
+ 	 	width: 90%; margin: 10px auto ;
+ 	 	border:1px solid black;
+ 	 	display:grid; 
+ 	 	/* grid row ki hight define*/
+
+		 	 	grid-template-rows: 100px 20px 1000px;
+
+ 	 	grid-template-columns: repeat(3, 1fr) ;
+		border-radius:5px;
+ 	 	grid-gap: 5px; /* give gaps in rows and column*/
+ 	 }
+
+ 	 /*Header styling*/
+ 	 .header {	background-color: green; 
+	grid-column: 1/-1;
+
+
+ 	 }
+	 .headerimg{ border-radius:5px;}
+
+
+ 	 
+ 	 /*marquee styling*/
+
+ 	 .Marquee {	background-color: pink; 
+ 	 grid-column: 1/-1;
+	 border-radius:5px;
+ 	 }
+
+ /*Image holder styling*/
+ 	 .imgholder {background-color: ; 
+	grid-column: 1/-1;
+			  	 }
+				 
+				 
+	.container{margin-left: 0px;
+    margin-right: 0px;
+
+	
+}
+h3{
+		
+		font-family: Arial,sans-serif,"Open Sans",Helvetica;
+		font-size: 20px;
+		line-height: 25px;
+		color: Red;
+			box-shadow: 2px 2px 5px 2px gray;
+
+		
+}
+
+
+
+
+ 	 .profile {
+	 
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+.profile-img {
+    width: 100%;
+    height: 148px;
+
+}
+
+    
+}
+.profile{
+    position: absolute;
+    z-index: 1;
+    bottom: -44px;
+    left: 0px;
+    right: 0px;
+    padding: 0px 0px;
+	height:130px;
+    
+}
+
+
+.profile-text{
+		background-color:#007bff;;
+		font-family: Arial,sans-serif,"Open Sans",Helvetica;
+		font-size: 13px;
+		line-height: 20px;
+		color: white;
+		
+}
+p{
+		pedding-top:5px;
+
+    margin-top: 5px;
+    margin-bottom: 1rem;
+	height:40;
+}
+
+.list-group-item{
+		font-family: Arial,sans-serif,"Open Sans",Helvetica;
+		font-size: 13px;
+		line-height: 12px;
+		color: white;
+		font-weight:bold;
+					box-shadow: 2px 2px 5px 2px gray;
+
+		
+}
+
+
+#container2{
+}
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="CSS/bootstrap.css">
+   <script src="js/jquery-3.6.0.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Owl Stylesheets of ER photos -->
+    <link rel="stylesheet" type="text/css" href="CSS/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/owl.theme.default.min.css">
+
+<!-- javascript -->
+    <script src="js/vendors_jquery.min.js"></script>
+    <script src="js/owlcarosuel_owl.carousel.js"></script>
+	
+	<main>
+ 
+ <!--Creating DIV for header-->
+ 
+ <div class="header" >  <img src="Images/head2.gif" class="headerimg" height="90px" width="100%" margin="0px" ></div>
+
+<!-- Creating owl carasaul-->
+
+  <div class="Marquee">
+    
+  <marquee scrolldelay="10" >
+                 <img border="0" src="Images/Headerimg.gif" &nbsp;&nbsp;="" width="15" height="10">
+                              <a href="#">
+                      
+                              Welcome to Gram Panchayat Kabakalan. 
+                                  <font class="text2&nbsp;" &nbsp;="" color="Yellow&nbsp;" size="3">&nbsp;
+                                      <img border="0" src="Images/New gif.gif" &nbsp;&nbsp;="" width="15" height="10">
+  <a href="#">
+                                  
+                              </font></a>
+                            </marquee>
+                          </div>
+						  
+
+
+    <title>Filp card</title>
+</head>
+<body>
+
+<div class="imgholder">
+<!--<button> <a href="index.html" > Home Page </a> </button>-->
+<div class="container" id="container1">
+<div class="row">
+
+<div class="col-lg-9">
+
+<h3>Elected Panchayat Represetative</h3>
+
+<div class="row">
+<div class="col-sm-3 col-lg-3">
+<!------one flip card ------------------>
+<div id="maincontainer">
+<div id="thecard">
+<div id="thefront">
+<img src="Images/pradhan.jpg" id="img"><p>Mrs. Tara Devi</p></div>
+<div id="theback"><br><p>Mrs. Tara Devi</p><p>Panchayat Pradhan</p><p>Mob-----------</p></div>
+</div>
+</div>
+</div>
+<!------ent of flip card ------------------>
+<div class="col-sm-3 col-lg-3">
+
+<!------2nd flip card ------------------>
+<div id="maincontainer">
+<div id="thecard">
+<div id="thefront">
+<img src="Images/Uppradhanji.jpg" id="img"><p>Mr. RajKumar</p></div>
+<div id="theback"><br><p>Mr. RajKumar</p><p>Panchayat Up-pradhan</p><p>Mob---------</p></div>
+</div>
+</div>
+</div>
+<!------2nd of flip card ------------------>
+</div>
+
+
+<div class="row">
+<div class="col-sm-3 col-lg-3">
+<!------one flip card ------------------>
+<div id="maincontainer">
+<div id="thecard">
+<div id="thefront">
+<img src="Images/Blank img.png" id="img"><p>Mr Rakesh Kumar</p></div>
+<div id="theback"><br><p>Mr. Rakesh Kumar</p><p>Ward Member</p><p>Mob-----------</p></div>
+</div>
+</div>
+</div>
+<!------ent of flip card ------------------>
+<div class="col-sm-3 col-lg-3">
+
+<!------2nd flip card ------------------>
+<div id="maincontainer">
+<div id="thecard">
+<div id="thefront">
+<img src="Images/Rekharani.jpg" id="img"><p>Rekharani</p></div>
+<div id="theback"><br><p>Mrs RekhaRani</p><p>Ward Member</p><p>Mob---------</p></div>
+</div>
+</div>
+</div>
+<!------2nd of flip card ------------------>
+<div class="col-sm-3 col-lg-3">
+
+<!------2nd flip card ------------------>
+<div id="maincontainer">
+<div id="thecard">
+<div id="thefront">
+<img src="Images/Rajender.jpg" id="img"><p>Rajender</p></div>
+<div id="theback"><br><p>Mr. Rajender</p><p>Ward Member</p><p>Mob---------</p></div>
+</div>
+</div>
+</div>
+<div class="col-sm-3 col-lg-3">
+
+<!------2nd flip card ------------------>
+<div id="maincontainer">
+<div id="thecard">
+<div id="thefront">
+<img src="Images/Tara devi.jpg" id="img"><p>Mrs Tara Devi</p></div>
+<div id="theback"><br><p>Mrs Tara Devi</p><p>Ward Member</p><p>Mob---------</p></div>
+</div>
+</div>
+</div>
+<div class="col-sm-3 col-lg-3">
+
+<!------2nd flip card ----------------
+<div id="maincontainer">
+<div id="thecard">
+<div id="thefront">
+<img src="Images/kanta devi.jpg" id="img"><p>Mrs Kanta Devi</p></div>
+<div id="theback"><br><p>Mrs Kanta Devi</p><p>Ward Member</p><p>Mob---------</p></div>
+</div>
+</div> -->
+</div>
+</div>
+</div>
+
+<!-------creting col lg 3 div and right menu--------->
+<div class="col-lg-3">
+<div class="right-menu">
+<ul class="list-group">
+<li class="list-group-item "><a href="Index.html" class="list-group-item list-group-item-action">Home Page</a> </li>
+<li class="list-group-item"><a href="#container2" class="list-group-item list-group-item-action">Panchayat Official</a> </li>
+</ul>
+</div>
+<!-------------------------->
+<br><br><br><br><br>
+<div id="maincontainer">
+<div id="thecard">
+<div id="thefront">
+<img src="Images/kanta devi.jpg" id="img"><p>Mrs Kanta Devi</p></div>
+<div id="theback"><br><p>Mrs Kanta Devi</p><p>Ward Member</p><p>Mob---------</p></div>
+</div>
+</div>
+</div>
+<!------------end of rightmenu----------------------->
+
+
+
+<!---- end of row  Div------------>
+</div>
+
+<!---- end of container  Div------------>
+</div>
+
+
+<!---------- creating container2 for official ----------------------------------------------->
+
+<div class="imgholder">
+<!--<button> <a href="index.html" > Home Page </a> </button>-->
+<div id="container2" class="container">
+<div class="row">
+
+<div class="col-lg-9">
+
+<h3>Panchayat Official</h3>
+
+<!---------- First Row---------------->
+
+<div class="row">
+
+<!---------- First colom---------------->
+
+<div class="col-sm-3 col-lg-3">
+<!------2nd flip card ------------------>
+<div id="maincontainer">
+<div id="thecard">
+<div id="thefront">
+<img src="Images/sachiv.jpg" id="img"><p>Pradeep Kumar</p></div>
+<div id="theback"><br><p>Pradeep Kumar</p><p>Panchayat Sachiv</p><p>Mob 9817893816</p></div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-3 col-lg-3">
+<!------2nd flip card ------------------>
+<div id="maincontainer">
+<div id="thecard">
+<div id="thefront">
+<img src="Images/ta.jpg" id="img"><p>Rajesh Kumar</p></div>
+<div id="theback"><br><p>Rajesh Kumar</p><p>Technical Asstt.</p><p>Mob---------</p></div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-3 col-lg-3">
+<!------2nd flip card ------------------>
+<div id="maincontainer">
+<div id="thecard">
+<div id="thefront">
+<img src="Images/Blank img.png" id="img"><p>Ashok Kumar</p></div>
+<div id="theback"><br><p>Ashok Kumar</p><p>GRS</p><p>Mob---------</p></div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-3 col-lg-3">
+<!------2nd flip card ------------------>
+<div id="maincontainer">
+<div id="thecard">
+<div id="thefront">
+<img src="Images/pratap1.jpg" id="img"><p>Pratap Singh</p></div>
+<div id="theback"><br><p>Pratap Singh</p><p>Panchayat Chowkidar</p><p>Mob---------</p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-------creting col lg 3 div and right menu--------->
+<div class="col-lg-3">
+<div class="right-menu">
+<ul class="list-group">
+<li class="list-group-item "><a href="Index.html" class="list-group-item list-group-item-action">Home Page</a> </li>
+<li class="list-group-item "><a href="#container1" class="list-group-item list-group-item-action">Elected Represetative</a> </li>
+</ul>
+</div>
+</div>
+<!------------end of rightmenu----------------------->
+
+
+</body>
+</html>
