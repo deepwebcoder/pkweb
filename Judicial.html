@@ -1,7 +1,7 @@
 <style>
  	 main{
- 	 	width: 100%; margin: 10px auto ;
- 	 	border:1px solid black;
+ 	 	width: 95%; margin: 10px auto ;
+ 	 	border:2px solid black;
  	 	display: grid; 
  	 	/* grid row ki hight define*/
  	 	grid-template-rows: 90px 20px ;
@@ -57,102 +57,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
-
     <title>Document</title>
 <!--script file strated for pdf downlaod--> 
-<script src="js/html2canvas.min.js"></script>
-<script src="js/pdfmake.min.js"></script>
-<script type="text/javascript">
-    function Export() {
-        
-        html2canvas(document.getElementById('Contact'), {
-            onrendered: function (canvas) {
-                var data = canvas.toDataURL();
-                var docDefinition = {
-                    content: [{
-                        image: data,
-                        width: 500
-                    }]
-                };
-                pdfMake.createPdf(docDefinition).download("Contact.pdf");
-                alert("Pdf Downloading Started");
-            }
-        });
-    }
-</script>
-<!--script file closed-->
     <style>
         
         Body{
-            background:#f4f9f9 ; 
+            background: #1fca408c; 
         }
-       tr{
-           width: 0%;
-           height: 0%;
-           color:rgb(2, 2, 2);
-       }
-       th{
-            width: 0%;
-           height: 0%;
-           
-       }
-       h4{
-           text-align: center;
-       }
-       td{
-           text-align: inherit;
-       }
-
-
-        
+    
+    .box{
+	margin:auto;
+	width: 90%;
+	height:800px;
+	}    
     </style>
 </head>
-<h4 >Judicial Cases List of Panchayat</h4>
+<h3 >Judicial Cases List of Panchayat</h3>
 <body>
     
-<table class="table table-striped table-hover table-bordered table-sm table-responsive" style="width:80%" align = "center"  border="0" id="Judicial" > 
-            <thead class= "thead-dark"></thead>
-                   
-                <tr class="table-primary" >
-        <tbody>
-        <tr >
-          <th>Sr.No</th>
-          <th>Case No</th>
-		  <th>Date</th>
-          <th>U/Section</th>
-          <th>Parties</th>
-          <th>Decided Y/N</th>
-          </tr>
-    <tr>
-            <td>1.</td>
-            <td>18</td>
-            <td>27/10/2020</td>
-            <td>323,504,506</td>
-            <td>State v/s Kamla</td>
-            <td>N</td>
-            </tr>
-           
-	<tr>
-            <td>2.</td>
-            <td>19</td>
-            <td>31/03/2021</td>
-            <td>283 IPC</td>
-            <td>State v/s C Resorst</td>
-            <td>N</td>
-            </tr>
-    	   <!-- </tbody> -->
-                            <!-- </table> -->
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQcWL_Enaddfbv4OI2aNybaXqCz8GkvCsJit7lcR6PV2Q_du2cuRKWsXbuyZSLND2K6L5D5MMtT1m6e/pubhtml?gid=258565049&amp;single=true&amp;widget=true&amp;headers=false" class="box" taget="blank"></iframe>
 
-<!-- <table id="Table2"> -->
-     <!-- <table style="width:45%" align = "right" border="solid Blue" bgcolor="purple" ="yellow"margin=""> -->
-                                            <!-- <tbody> -->
-                                                <!-- <caption>Table 2</caption> -->
 
-                                                <!-- </Div> -->
-                                                 </tbody>
-                                                </Table>
-                                                
- <input type="button" align="center "id="btnExport"  value="Downlaod Pdf" onclick="Export()" class="auto-style5" />                                     
+
+
+
+
+
+
+
 </body>
 </html>
