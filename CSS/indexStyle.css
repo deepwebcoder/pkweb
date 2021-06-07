@@ -17,7 +17,7 @@
  	 	grid-gap: 5px; /* give gaps in rows and column*/
  	 }
 /*Header styling*/
- 	 .header {	background-color: green; 
+ 	 .header {	background-color: #7fafb975; 
 	grid-column: 1/-1;
 		 box-shadow: 2px 0px 0px 0px:
  	 }
