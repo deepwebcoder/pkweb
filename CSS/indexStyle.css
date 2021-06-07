@@ -19,7 +19,7 @@
 /*Header styling*/
  	 .header {	background-color: #7fafb975; 
 	grid-column: 1/-1;
-		 box-shadow: 2px 0px 0px 0px:
+		 box-shadow: 2px 2px 0px 0px;
  	 }
 
  	 /*marquee styling*/
