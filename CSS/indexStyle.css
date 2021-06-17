@@ -12,7 +12,7 @@
  	 	
 /* grid row ki hight define*/
 
-		 grid-template-rows: 100px 20px 375px 200px 375px 50px  ;
+			grid-template-rows: 100px 20px 375px 200px 375px 420px 50px  ;
  	 	grid-template-columns: repeat(3, 1fr) ;
  	 	grid-gap: 5px; /* give gaps in rows and column*/
  	 }
@@ -124,6 +124,21 @@ tr{
 	border:2px solid gray;
 }
 	
+ .goshwara {	background-color: white ; 
+					
+ 	 			 grid-column: 1/-1;
+ 	  			font-family:Tahoma, sans-serif,Arial;
+    			font-size: 95% bold;
+    			display: grid;
+			text-align:center;
+								
+			}
+			
+			.population{ margin:auto;
+							width: 90%;
+							height:375px;
+				
+			}
 
 
 	
