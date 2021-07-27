@@ -118,10 +118,12 @@ tr{
 	background-color:;
 	border:2px solid gray;
 }
-.footer-menu-row4{
+.footer-menu-row{
 		margin:5px;
 	background-color:;
 	border:2px solid gray;
+	background: radial-gradient( #e8b262, #ed41f8);
+
 }
 	
  .goshwara {	background-color: white ; 
