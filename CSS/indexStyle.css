@@ -123,6 +123,8 @@ tr{
 	background-color:;
 	border:2px solid gray;
 	background: radial-gradient( #e8b262, #ed41f8);
+		box-shadow: 2px 2px 0px 0px gray;
+
 
 }
 	
