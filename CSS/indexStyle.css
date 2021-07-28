@@ -130,7 +130,7 @@ tr{
 
 }
 .footer-menu-row:hover{
-		transform:scale(1.0);
+		transform:scale(1);
 			box-shadow: 2px 2px 2px 0px #000;
 			z-index:1;
 		
