@@ -12,7 +12,7 @@
  	 	
 /* grid row ki hight define*/
 
-			grid-template-rows: 100px 20px 375px 200px 435px 450px 185px 50px  ;
+			grid-template-rows: 100px 20px 375px 200px 435px 470px 185px 50px  ;
  	 	grid-template-columns: repeat(3, 1fr) ;
  	 	grid-gap: 5px; /* give gaps in rows and column*/
  	 }
@@ -116,7 +116,12 @@ tr{
 }
 
 .footer-menu-row{
-	margin:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+
+	
 	background-color:;
 	border:2px solid gray;
 	background: radial-gradient( #e8b262, #ed41f8);
