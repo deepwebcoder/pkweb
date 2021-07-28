@@ -115,11 +115,16 @@ tr{
 	pedding:10px;
 }
 
+li.{
+	font-family:Tahoma, sans-serif,Arial;
+    	font-size: 95% ;
+	color:white;
+}
 .footer-menu-row{
 	margin:20px;
 	font-family:Tahoma, sans-serif,Arial;
-    			font-size: 95% ;
-	color:white;
+    	font-size: 95% ;
+	
 
 	
 	background-color:;
@@ -130,7 +135,7 @@ tr{
 
 }
 .footer-menu-row:hover{
-		transform:scale(1);
+		transform:scale(1.0);
 			box-shadow: 2px 2px 2px 0px #000;
 			z-index:1;
 		
