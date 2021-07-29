@@ -12,7 +12,7 @@
  	 	
 /* grid row ki hight define*/
 
-			grid-template-rows: 100px 20px 375px 200px 435px 470px 185px 50px  ;
+			grid-template-rows: 100px 20px 375px 200px 455px 470px 185px 50px  ;
  	 	grid-template-columns: repeat(3, 1fr) ;
  	 	grid-gap: 5px; /* give gaps in rows and column*/
  	 }
