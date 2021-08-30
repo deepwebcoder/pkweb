@@ -6,6 +6,8 @@
  
   <!-- Owl Stylesheets of center  photos -->
  <link rel="stylesheet" href="CSS/bootstrap.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
    <script src="js/jquery-3.6.0.min.js"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
@@ -33,7 +35,7 @@
  
  <!--Creating DIV for header-->
  
- <div class="header" >  <img src="Images/head2.gif" height="90px" width="100%" margin="0px" ></div>
+ <div class="header" data-aos="zoom-in" >  <img src="Images/head2.gif" height="90px" width="100%" margin="0px" ></div>
 
 <!-- Creating owl carasaul---->
 
@@ -52,7 +54,7 @@
                             </marquee>
                           </div>
 
-  <div class="leftbar">   
+  <div class="leftbar" data-aos="zoom-in">   
     <nav>                 <!-- Creating Navigation Bar Class name navlist-->
       <ul class="navlist"> 
       
@@ -106,7 +108,7 @@ $(this).css("background-color","pink");
 
 
 
-  <div class="centerarea">
+  <div class="centerarea" data-aos="zoom-in">
  
 <!-----Center photh carosuel------>
 <div class="row py-3 w-400"
@@ -176,7 +178,7 @@ $(this).css("background-color","pink");
 
 
   </div>
-  <div class="rightbar">
+  <div class="rightbar"data-aos="zoom-in" >
   <ul class="navlist1"> 
       
         <li class="linklist1"> <a href="http://aadhaar.hp.gov.in/epanchayat" target="blank">E-Pariwar</a></li>
@@ -222,7 +224,7 @@ $(this).css("background-color","pink");
 	 
 	 
 	 
-<div class="abovefooter">
+<div class="abovefooter" data-aos="zoom-in">
 <table align="center "border="0"  width="100%" height="200" >
 <tr><td><a href="Doc/RTi.pdf" ><img src="Images/rti.jpg" width="100" height="70"></a> <target="_blank"></td>
 <td><a href="http://rdd.bih.nic.in/PMAY_detail.htm" ><img src="Images/pmay.jpg" width="100" height="70"></a> <target="_blank"></td>
@@ -289,7 +291,7 @@ li {
 
 
 <footer id="footer">
-<div class="ww">
+<div class="ww" data-aos="zoom-in">
 <div class="footer-menu-row">
 <ul><li><strong>MG Nrega</strong></li>
 	<li><a href="https://nrega.nic.in/Netnrega/writereaddata/citizen_out/funddisreport_1311005_local_2122_.html" target="blank">Financial Statement</a></li>
@@ -346,11 +348,11 @@ li {
   
   
     
-<div class="goshwara">
+<div class="goshwara" data-aos="zoom-in" >
 <h3> Gram Panchayat Population </h3>
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRp7xNGKIU1jS_hdFi8J9CUi_xn6IY70rEjXp_-hilaAHI5318ocmqZx0PW2ul45RdW59JswimRBARB/pubhtml?gid=1990143870&amp;single=true&amp;widget=true&amp;headers=false" class="population"></iframe>
 </div>  
-<div class="stackboard">
+<div class="stackboard" data-aos="zoom-in">
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRp7xNGKIU1jS_hdFi8J9CUi_xn6IY70rEjXp_-hilaAHI5318ocmqZx0PW2ul45RdW59JswimRBARB/pubhtml?gid=2030826118&amp;single=true&amp;widget=true&amp;headers=false" class="dashboard"></iframe>
 </div>  
 
@@ -358,8 +360,12 @@ li {
   
 
       <!--Creating footer text-->
-  <div class="footer">This website designed by Pradeep Kumar. Programming Assistant . : e-mail = pkshivam8@gmail.com , updated as on 20 July 2021</div>
-  
+  <div class="footer"data-aos="zoom-in">This website designed by Pradeep Kumar. Programming Assistant . : e-mail = pkshivam8@gmail.com , updated as on 20 July 2021</div>
+
+<script>
+  AOS.init();
+</script>
+
  </main>
  </body>
  </html> 
