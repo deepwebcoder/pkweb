@@ -28,13 +28,18 @@ html {
 
  	 /*marquee styling*/
 
- 	 .Marquee {	background-color: #24292f; 
+ 	 .Marquee {background-color: #24292f; 
  	 grid-column: 1/-1;
 	 border-radius:5px;
-		 font-family:Tahoma, sans-serif,Arial;
+	font-family:Tahoma, sans-serif,Arial;
     	font-size: 95% ;
 	color:white;
- 	 }
+	display:flex;
+justify-content:space-around;
+align-items:center;
+
+
+}
 
 /*leftside navigation list styling*/
  	 .leftbar {	background-color:#f3eded ; 
