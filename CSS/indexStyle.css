@@ -10,7 +10,7 @@ html {
 
 
   main{
- 	width: 90%; margin: 10px auto ;
+ 	width: 100%; margin: 0px auto ;
  	  border:0px solid black;
  	     display: grid; 
  	 	
@@ -25,6 +25,25 @@ html {
 	grid-column: 1/-1;
 		 box-shadow: 2px 2px 2px 2px;
  	 }
+
+
+/*--------------fix the navbar--------------------*/
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+
+
+/* ------------end of  fix the navbar-----------*/
+
+
+
 
  	 /*marquee styling*/
 
