@@ -41,9 +41,64 @@
  
  <main>
  
- <!--Creating DIV for header-->
+ <!-----------------Creating DIV for header sample 1--------------------------->
  
- <div class="header" data-aos="zoom-in" >  <img src="Images/head2.gif" height="90px" width="100%" margin="0px" ></div>
+ <!--<div class="header" data-aos="zoom-in" >  <img src="Images/head2.gif" height="90px" width="100%" margin="0px" ></div>--->
+	 
+<!----------------End of Creating DIV for header sample 1-------------------->
+	 
+ <!-----------------Creating  header sample 2--------------------------->
+	 
+
+	 <style>
+p{ color:white;
+	font-size:4rem;
+	font-weight:bold;
+	position:relative;
+}
+p::before{
+		content:"~Gram~Panchayat~Kabakalan~";
+		width:90%;
+		color:#2ed573;
+		position: absolute;
+		top:0;
+		left:0;
+		border-right: .2rem solid #2ed573;
+		animation:slide 3s linear infinite;
+		-webkit-animation:slide 3s linear infinite;
+		overflow:hidden;
+}
+@keyframes slide {
+					0%{width:0%;}	
+		
+				50%{width:100%;}	
+			
+					100%{width:0%;}	
+			
+
+}
+
+		 
+/* .header {
+widht:90%;
+height:100px;
+			
+background-color:#81ecec;*/
+display:flex;
+justify-content:space-around;
+align-items:center;
+}
+
+</style>
+
+	  
+	 <div class="header" data-aos="zoom-in" >
+
+		 <p>~Gram~Panchayat~Kabakalan~</p>
+
+	 </div>
+
+<!----------------End of Creating DIV for header sample 2-------------------->
 
 
 
