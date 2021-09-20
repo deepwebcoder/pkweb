@@ -43,8 +43,8 @@ html {
 
 /*Header styling*/
  	 .header {	
-		 background-color: white;
-		 /*background-color: #7fafb975;*/ 
+		 background-color: #7027A0;
+		
 	grid-column: 1/-1;
 		 box-shadow: 2px 2px 2px 2px;
  	 }
