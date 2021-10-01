@@ -17,7 +17,10 @@ html {
 /* grid row ki hight define*/
 
 			grid-template-rows: 100px 50px 375px 200px 455px 490px 185px 50px  ;
- 	 	grid-template-columns: repeat(3, 1fr) ;
+	   	 	
+	  grid-template-columns: repeat(2, 1fr) ;  /*grid-template-columns 2 part me divide*/
+
+ 	 	/*grid-template-columns: repeat(3, 1fr) ;*/ /*grid-template-columns 3 part me divide*/
  	 	grid-gap: 5px; /* give gaps in rows and column*/
  	 }
 
@@ -106,16 +109,16 @@ align-items:center;
 /* Ceter area styling work*/
  	 .centerarea{	
  	 	background-color: #b4b40c; 
-		width: 600px;
+		width: 800px;
 		display: grid;
-		border-radius:10px;
+		border-radius:0px;
  	 }
 
 
 /*Creating design for rightside weblink*/
  	 .rightbar{	background-color: #f3eded;
 				display: grid; 
-				border-radius:10px;
+				border-radius:0px;
 }
 
     
