@@ -2,31 +2,40 @@
 
 
 <style>
-.profile-box {
-    background: #dfe3f2;
-    margin: 10px 0;
-    /* border: 1px solid #ffffff; */
-    border-radius: 5px;
-    padding: 5px 0 7px 0;
-    box-shadow: 2px 2px 4px #bfc3cf, -2px -2px 4px #fff;
+h1{
+color:red;
 }
 
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+.containter{
+background-color:  ;
+margin:15px;
+display:grid;  /*for dispalay as grid*/
+grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr; /*for making no of col*/
+grid-template-rows: 100px 100px 100px 100px;   /*for making heigt of row */
+grid-gap:10px;
+
+border-color:gray;
 }
-.vhnsc-box{
-	border:20x solid gray;
-position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-	background-color:pink;
+
+.item{
+background-color:pink;
+border-radius:5px;
+box-shadow: 4px 4px 0px 0px gray;
+
 }
+h3{ color:red;
+height:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+
+}
+#subject:hover{
+		background-color:#fafafa;
+		
+
+}
+
 #PariwarContainer{ 	height:500px;
 					display: flex;
 					background-color:pink;
@@ -44,247 +53,42 @@ position: relative;
  <head>
  	<meta charset="UTF-8">
   <title>Reports</title>
-  
-  <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/layout.css">
+    
    </head>
  <body>
+<h1>Grid Tutorial</h1>
+<Div class ="containter">
+<div class="item "><h3 id="subject"><a href="#">1st div</h3></a></div>
+<div class="item ">2st div</div>
+<div class="item ">3st div</div>
+<div class="item ">4st div</div>
+<div class="item ">5st div</div>
+<div class="item ">6st div</div>
+<div class="item ">7st div</div>
+<div class="item ">8st div</div>
+<div class="item ">9st div</div>
 
- 	
- 	<!-- Starting of Row 1 --><div class="row profile-box">
-	<!-- Starting of Col -->   <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1"><a href="index.html">Home</h6></a>
-				    				
-				   				</div>
-			   				</a>
-			            </div> <!-- End of col -->
-						
-	<!-- Starting of Col -->        <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1"><a href="#PariwarContainer">Pariwar Ragister</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-						
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1"><a href="#BirtDeathContainer">Birth and Death</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
+<div class="item">10 div</div>
+<div class="item">11 div</div>
+<div class="item">12 div</div>
+<div class="item">13 div</div>
+<div class="item">14 div</div>
+<div class="item">15 div</div>
+<div class="item">16 div</div>
+<div class="item">17 div</div>
+<div class="item">18 div</div>
+<div class="item">19 div</div>
+<div class="item">20 div</div>
+<div class="item">21 div</div>
+<div class="item">22 div</div>
+<div class="item">23 div</div>
+<div class="item">24 div</div>
 
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">BPL Related</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
+</div>
 
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Mobile Tower</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
 
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Property Tax</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
 
-</div><!-- End of Row 1-->
 
-<!------------------------------------------------------------------------------>
- 	<!-- Starting of Row 2 --><div class="row profile-box">
-	<!-- Starting of Col -->   <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Pariwar Ragister</h6>
-				    				
-				   				</div>
-			   				</a>
-			            </div> <!-- End of col -->
-						
-	<!-- Starting of Col -->        <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Marriage</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-						
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Birth and Death</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">BPL Related</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Mobile Tower</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Property Tax</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-
-</div><!-- End of Row -->
-<!------------------------------------------------------------------------------>
-
- 	<!-- Starting of Row 3 --><div class="row profile-box">
-	<!-- Starting of Col -->   <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Pariwar Ragister</h6>
-				    				
-				   				</div>
-			   				</a>
-			            </div> <!-- End of col -->
-						
-	<!-- Starting of Col -->        <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Marriage</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-						
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Birth and Death</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">BPL Related</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Mobile Tower</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Property Tax</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-
-</div><!-- End of Row -->
-<!------------------------------------------------------------------------------>
-
- 	<!-- Starting of Row 4 --><div class="row profile-box">
-	<!-- Starting of Col -->   <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Pariwar Ragister</h6>
-				    				
-				   				</div>
-			   				</a>
-			            </div> <!-- End of col -->
-						
-	<!-- Starting of Col -->        <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Marriage</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-						
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Birth and Death</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">BPL Related</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Mobile Tower</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-
-<!-- Starting of Col --> <div class="col-lg col-md-2 col-sm-2 mt-2">
-					    	<a href="#">
-						    	<div class="vhnsc-box" style="">
-				    				<img src="">
-				    				<h6 class="mt-1">Property Tax</h6>
-				    			</div>
-				   			</a>	
-			            </div> <!-- End of col -->
-
-</div><!-- End of Row -->
 <!------------------------------------------------------------------------------>
 <br><br><br><br><br><br><br><br><br>
 <!------------------------------------------------------------------------------>
