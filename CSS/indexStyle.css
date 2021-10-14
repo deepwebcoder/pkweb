@@ -21,7 +21,7 @@ html {
 	  grid-template-columns: repeat(2, 1fr) ;  /*grid-template-columns 2 part me divide*/
 
  	 	/*grid-template-columns: repeat(3, 1fr) ;*/ /*grid-template-columns 3 part me divide*/
- 	 	grid-gap: 5px; /* give gaps in rows and column*/
+ 	 	grid-gap: 0px; /* give gaps in rows and column*/
  	 }
 
 
