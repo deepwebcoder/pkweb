@@ -223,6 +223,8 @@ li.{
 .alldashboard { margin:auto;
 		width: 90%;
 		height:800px;
+	 	grid-column: 1/-1;
+    		display: grid;
 		}
 
 
