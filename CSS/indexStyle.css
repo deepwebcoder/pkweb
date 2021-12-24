@@ -179,8 +179,11 @@ li.{
     	font-size: 95% ;
 	background-color:;
 	border:2px solid gray;
-	background: radial-gradient( #d7cab6, #d3add5);
-		box-shadow: 2px 2px 2px 0px #000;
+	background:#3f3f46;
+	
+	/*background: radial-gradient( #d7cab6, #d3add5);*/
+	
+	box-shadow: 2px 2px 2px 0px #000;
 	transition:1s;
 
 }
