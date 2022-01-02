@@ -16,7 +16,7 @@ html {
  	 	
 /* grid row ki hight define*/
 
-			grid-template-rows: 100px 50px 375px 200px 455px 490px 185px 800px 650px 150px  ;
+			grid-template-rows: 100px 50px 375px 200px 455px 490px 185px 800px 500px 150px  ;
 	   	 	
 	  grid-template-columns: repeat(2, 1fr) ;  /*grid-template-columns 2 part me divide*/
 
