@@ -779,14 +779,142 @@ li {
 <iframe width="100%" height="800" src="https://datastudio.google.com/embed/reporting/1283dce6-2f69-438f-b87b-10e646028285/page/YYweC" frameborder="0" style="border:0" allowfullscreen></iframe>
 					    
 </div>  
+<!---------------------------------Creating Big footer text----------------------------------------->
+      <style>
+.bigfooter {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	background-color:black;
+font-family: "Roboto", sans-serif;
+    color: white;
+	
+}
 
-  
-  
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.serviceList a {
+    color: #fcd558;
+    font-size: 14px;
+}
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.text-center {
+    text-align: center !important;
+}
+.col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.text-justify {
+    text-align: justify !important;
+}
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.whitefont {
+    color: #fff;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: #ffffff;
+}
+
+
+
+</style>
+
+
+
+
+<div class="bigfooter">
+				<div class="row">
+					<div class="col-md-3 text-center">
+						<ul class="text-justify serviceList">
+							<li><a href="">20 Common Transaction Scenarios</a></li>
+							<li><a href="">CAG Simplified Accounting Formats</a></li>
+							<li><a href="javascript:download('codesprifilepath');">List Of Codes For Functional Programmes and Activities Of PRIs</a></li>
+							<li><a href="javascript:download('recordeductionpv');">Record Deduction Cut and Deduction Payment Using Payment Voucher</a></li>
+							<li><a href="javascript:download('scannedcopy');">Upload Scanned Copy of Vouchers</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 text-center">
+						<ul class="text-justify serviceList">
+						<!--<li><a href="javascript:download('receiptvoucherfilepath');">Receipt Voucher</a></li>
+							<li><a href="javascript:download('paymentvoucherfilepath');">Payment Voucher</a></li>
+							<li><a href="javascript:download('contravoucherfilepath');">Contra Voucher</a></li>
+							<li><a href="javascript:download('journalvoucherfilepath');">Journal Voucher</a></li> -->
+
+							<li><a href="javascript:download('receiptcancellation');">Refund Amount to State through Receipt Cancellation</a></li>	
+							<li><a href="javascript:download('funddiversion');">Fund Diversion</a></li>
+							<li><a href="FileRedirect.jsp?FD=PRIASoftPFMSIntegration&amp;name=PaymentProtocol.pdf" target="_blank">
+							Payment Protocol Policy on eGramSwaraj-PFMS</a></li>
+							<li><a href="FileRedirect.jsp?FD=PRIASoftPFMSIntegration&amp;name=MasterSoPv23032021.pdf" target="_blank">
+                            Major SoP on eGramSwaraj-PFMS</a></li>
+							<li><a href="FileRedirect.jsp?FD=PRIASoftPFMSIntegration&amp;name=SOP_Language_Translation_Package.pdf" target="_blank">
+                                                     SOP for conversion of English to regional languages</a></li>
+		
+						</ul>
+					</div>
+					<div class="col-md-3 text-center">
+						<ul class="text-justify serviceList">
+							<li><a href="FileRedirect.jsp?FD=PRIASoftPFMSIntegration&amp;name=Instructions_for_on-boarding_of_GPs_PRIASoft_PFMS.pdf" target="_blank">
+							Instruction for on-boarding of GPs on eGramSwaraj-PFMS</a></li>
+							<li><a href="FileRedirect.jsp?FD=PRIASoftPFMSIntegration&amp;name=Requirements_of_PRIASoft-PFMS_Integration_for_FFC_Scheme.zip" target="_blank">
+							Requirements of eGramSwaraj-PFMS Integration for FFC Scheme</a></li>
+							<li><a href="FileRedirect.jsp?FD=PRIASoftPFMSIntegration&amp;name=Process_flow_of_PRIASoft_for_FFC.pdf" target="_blank">
+							Process Flow of eGramSwaraj-PFMS integration for FFC</a></li>
+							<li><a href="javascript:download('quickstartguidefilepath');">Quick Start guide for Online Payments</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 text-center">
+						<ul class="text-justify serviceList">
+							<!-- <li><a href="#">CBT</a></li> -->
+							<!-- <li><a href="#">User Manual (PDF | HTML)</a></li> -->
+							<li><a href="FileRedirect.jsp?FD=PRIASoftPFMSIntegration&amp;name=PRIASoft-PFMS-Messages-Notifications.xlsx" target="_blank">
+							Messages of eGramSwaraj-PFMS Integration for FFC Scheme</a></li>
+							<li><a href="FileRedirect.jsp?FD=PRIASoftPFMSIntegration&amp;name=FrequentlyAskedQuestions_PRIASoft.pdf" target="_blank">
+							Queries of eGramSwaraj-PFMS Integration for FFC Scheme</a></li>
+							<li><a href="javascript:download('brochurepath');">Brochure</a></li>
+							<li><a href="javascript:download('quickreferencepath');">Quick Reference</a></li>
+							<li><a href="javascript:download('presentationpath');">Presentation</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+      
+<!----------------------end of bigfooter------------------------------------>
 
 
       <!--Creating footer text-->
-  <div class="footer"data-aos="zoom-in">This website designed by Pradeep Kumar. Programming Assistant . : e-mail = pkshivam8@gmail.com , updated as on 01/12/2021</div>
-
+  <div class="footer"data-aos="zoom-in">This website designed by Pradeep Kumar. Programming Assistant . : e-mail = pkshivam8@gmail.com , updated as on 01/01/2022</div>
 
 <script>
   AOS.init();
