@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+h1{
+	text-align:center;
+}
+</style>
+</head>
+<body>
+
+<H1>Gram Panchayat Kabakalan</h1>
+<!--------------------------Tab Creation-------------------------------------------------------->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Goshwara</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">BPL list</button>
+  
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Committee</button>
+    <button class="tablinks" onclick="openCity(event, 'finance')">Finacial Doc</button>
+	    <button class="tablinks" onclick="openCity(event, 'gpdp')">GPDP</button>
+			    <button class="tablinks" onclick="openCity(event, 'nrega')">Nrega Shelf</button>
+							    <button class="tablinks" onclick="openCity(event, 'election')">Elections</button>
+
+
+
+	
+	
+
+</div>
+<!--------------------------End of  Tab Creation-------------------------------------------------------->
+
+
+<!--------------------------Tab Data Div-------------------------------------------------------->
+
+<div id="London" class="tabcontent">
+  <h3>Goshwara</h3>
+ <li> <a href="Doc/Censes.pdf" target="Blank">Censes GP Data 2011 </a></li>
+	<li> <a href="Doc/PariwarRagisterKabakalanup31-12-2021.pdf"  target="Blank" > Goshwara As on 31-12-2021</a></li>
+  	   <li> <a href="Doc/Agewise count reportup 31-12-2021.pdf"  target="Blank" > Agewise count male female report As on 31-12-2021</a></li>
+			<li> <a href="Doc/Goshwara2020.pdf"  target="Blank" > Goshwara As on 31-12-2020</a></li>
+				<li> <a href="Doc/Goshwara 31-12-19.pdf" target="Blank"> Goshwara As on 31-12-2019</a></li>
+
+</div>
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+<!--------------------------Tab Data Div-------------------------------------------------------->
+
+<div id="Paris" class="tabcontent">
+  <h3>BPL List</h3>
+  	<li> <a href="Doc/GP Kaba BPL.pdf" target="Blank"> Gram Panchayat BPL List</a></li>
+
+</div>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Committee</h3>
+  <li> <a href="Doc/VWSC.pdf"  target="Blank" >VWSC 2021</a></li>
+
+			    <li> <a href="https://hptsc.nic.in/VWSC.pdf" target="Blank" >VWSC Guideline</a></li>
+
+			    <li> <a href="http://nhm.gov.in/images/pdf/communitisation/vhsnc/state_wise_notifications/HP.pdf" >Village Health Sanitation Committee </a></li>
+		
+
+</div>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<div id="finance" class="tabcontent">
+  <h3>Finacial</h3>
+  
+     <li> <a href="Doc/Budget 2021-22.pdf" target="Blank"> Budget 2021-22 </a></li>
+		<li> <a href="Doc/Budget 2020-21.pdf" target="Blank"> Budget 2020-21 </a></li>
+
+
+
+</div>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<div id="gpdp" class="tabcontent">
+  <h3>GPDP</h3>
+  
+        <li> <a href="Doc/GPDP 21-22.pdf" target="Blank"> GPDP 2021-22 </a></li>
+
+
+
+
+</div>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<div id="nrega" class="tabcontent">
+  <h3>Nrega Shelf</h3>
+  
+  	 <li> <a href="Doc/Mgnraga shelf 2021-22.pdf" target="Blank"> Mgnrega Shelf 2021-22 </a></li>
+
+   <li> <a href="Doc/shelf20-21.pdf" target="Blank"> Mgnrega Shelf 2020-21 </a></li>
+
+
+
+
+</div>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<div id="election" class="tabcontent">
+  <h3>Elections</h3>
+  
+  	  	    <li><a href="Doc/ONLINE WARE RESERVATION.pdf" target="Blank">Panchayat reservation 2020 </a><br></li>
+
+
+
+
+</div>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+
+
+
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
