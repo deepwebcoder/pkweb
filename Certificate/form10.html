@@ -28,7 +28,7 @@ margin:0px}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form 10</title>
-
+<link rel="stylesheet" type="text/css" href="jquery-ui.min.css">
 </head>
 <!--<button><a href="Index.html" class="home"> Home</a> </button>-->
 
@@ -70,7 +70,7 @@ state Himachal Pradesh and found that the event relating to the birth of <input 
                 <input name="Username" type="text" class="fill" > was not registered.
 				
     <br><br><br>
-	Date : <input name="Date" type="date" min ="2022-01-01" class="fill">
+	Date : <input name="text" type="text" min ="2022-01-01" class="fill" id="datepicker">
 	<br>
 	
 	<P align="right">........................................</p>
@@ -86,5 +86,19 @@ state Himachal Pradesh and found that the event relating to the birth of <input 
 	<br>
 	<!--<input name="Submit" type="submit" value="Get PDF" class="Button"></td>-->
     
+	<script src="jquery-3.6.0.min.js"></script>
+	
+		<script src="jquery-ui.min.js"></script>
+
+<script>
+$(document).ready(function(){
+$('#datepicker').datepicker({
+dateFormat: "dd-mm-yy",
+changeMonth: true,
+changeYear: true,
+});
+})
+
+</script>	
 </body>
 </html>
