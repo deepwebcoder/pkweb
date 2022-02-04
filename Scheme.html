@@ -1,47 +1,198 @@
+    <button> <a href="index.html" > Home Page </a> </button>
+    
+    <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-ul li{ 
-    background-color: pink ;
-    margin:15px;
-    font-family:Serif;
-    text-color: red ;
-    font-weight: bold;
-  box-shadow: 1px 1px 0px 1px;  
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 0px solid #ccc;
+  border-top: none;
+}
+h1{
+	text-align:center;
 }
 </style>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schemes</title>
 </head>
 <body>
-    <button> <a href="index.html" > Home Page </a> </button>
-    <uL>
-    <!-- taget is use to open page into new tab on browser -->
- <li><a href="Doc/Feature of Matri Shakti Bima Yojna 2008-2009.pdf" target="Blank"> मात् शक्ति बीमा योजना For Women BPL Families and death of husband (age 10 to 75)(2,00,000)</a></li>
+
+<H1>Gram Panchayat Kabakalan</h1>
+<!--------------------------Tab Creation-------------------------------------------------------->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Scheme for BPL</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Welfare Scheme</button>
+  
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Mgnrega Schemes</button>
+    <button class="tablinks" onclick="openCity(event, 'finance')">SBM</button>
+	    <button class="tablinks" onclick="openCity(event, 'gpdp')">Awaas</button>
+			    <button class="tablinks" onclick="openCity(event, 'nrega')">NFSA</button>
+							    <button class="tablinks" onclick="openCity(event, 'election')">Other</button>
+
+
+
+	
+	
+
+</div>
+<!--------------------------End of  Tab Creation-------------------------------------------------------->
+
+
+<!--------------------------Tab Data Div-------------------------------------------------------->
+
+<div id="London" class="tabcontent">
+  <h3>scheme for BPL</h3>
+<li><a href="Doc/Feature of Matri Shakti Bima Yojna 2008-2009.pdf" target="Blank"> मात् शक्ति बीमा योजना For Women BPL Families and death of husband (age 10 to 75)(2,00,000)</a></li>
    <li><a href="Doc/Shagun Yojna.pdf" target="Blank">मुख्यमंत्री शगुन योजना Marriage Grant Rs 31000/- to BPL Girl(if Parents are not alive/Traceable) </a></li>
       <li><a href="Doc/Sahara Scheme.pdf" target="Blank">सहारा योजना BPL परिवारो के लिये for Critical deseases</a></li>
          <li><a href="Doc/1.NSAP Guideline.pdf" target="Blank">NSAP/NFBS (BPL परिवारो मे मुख्य आजीविका कमाने वाले की म्रित्यु पर) (Natural or Otherwise Rs. 20,000/- Age 18 to 60)</a></li>
               <li><a href="Doc/NFBS.pdf" target="Blank">NFBS Application Form</a></li>
+    
+
+</div>
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+<!--------------------------Tab Data Div-------------------------------------------------------->
+
+<div id="Paris" class="tabcontent">
+  <h3>Welfare Scheme</h3>
+  	  
         <li><a href="Doc/walfare scheme.pdf" target="Blank"> कल्याण विभाग की योजनाये</a></li>
   <li><a href="Doc/Intercaste guideline.pdf" target="Blank">अंत्र्जातीय विवाह पुरस्कार योजना - Intercast marriage award Scheme</a></li>
-<li><a href="Doc/MM1BS Part 2.pdf" target="Blank">मुख्य मंत्री एक बीघा योजना </a></li>
+    li><a href="Doc/New Notfication of pension 2021.pdf" target="Blank">नारी सबल योजना </a></li>
+</div>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Nrega</h3>
+    <li><a href="Doc/cattle shed.pdf" target="Blank">पशुशाला [Cattle Shed in Nrega } </a></li>
+                         <li><a href="Doc/.pdf" target="Blank"> व्यक्तिगत कार्य [Individual Work in Nrega] </a></li>
+
+</div>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<div id="finance" class="tabcontent">
+  <h3>Finacial</h3>
+	
+       
+	  
+    
+    
+
+</div>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<div id="gpdp" class="tabcontent">
+  <h3>GPDP</h3>
+  
+
+
+
+
+</div>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<div id="nrega" class="tabcontent">
+  <h3>NFSA</h3>
+  
+                       <li><a href="Doc/Ration Card Procedure.pdf" target="Blank">Ration Card Guideline</a></li>
+
+
+
+</div>
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
+
+
+<div id="election" class="tabcontent">
+  <h3>other</h3>
+  
+  	  	    <li><a href="Doc/MM1BS Part 2.pdf" target="Blank">मुख्य मंत्री एक बीघा योजना </a></li>
   <li><a href="Doc/LOK Bhawan Yojna.pdf" target="Blank">Mukhya Mantri Lok Bhawan Yojna</a></li>
         
+</div>
 
-              <li><a href="Doc/New Notfication of pension 2021.pdf" target="Blank">नारी सबल योजना </a></li>
-
-        <li><a href="Doc/cattle shed.pdf" target="Blank">पशुशाला [Cattle Shed in Nrega } </a></li>
-                         <li><a href="Doc/.pdf" target="Blank"> व्यक्तिगत कार्य [Individual Work in Nrega] </a></li>
-                     <li><a href="Doc/Ration Card Procedure.pdf" target="Blank">Ration Card Guideline</a></li>
+<!-------------------------------------------------------------------End o tab data Div------------------------------------------------------------>
 
 
 
 
- 
 
-</uL>
-    
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
 </body>
-</html>
+</html> 
+    
+    
+    
+
